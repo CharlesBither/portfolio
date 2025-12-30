@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function AboutContent() {
   return (
     <>
-      <main className="container mx-auto px-6 py-16 max-w-6xl">
+      <main className="container mx-auto px-6 py-16 max-w-6xl" id="about">
         {/* Header */}
         <section className="mb-12">
           <h1 className="text-4xl font-bold tracking-tight">About Me</h1>

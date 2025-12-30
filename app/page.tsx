@@ -1,4 +1,5 @@
 import AboutContent from '@/components/AboutContent';
+import ContactContent from '@/components/ContactContent';
 import { HomeContent } from '@/components/HomeContent';
 import { Navbar } from '@/components/Navbar';
 import ProjectsContent from '@/components/ProjectsContent';
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutContent />
       <SkillsContent />
       <ProjectsContent />
+      <ContactContent />
     </div>
   );
 }
