@@ -9,10 +9,10 @@ const projects = [
     title: 'Cornucopia',
     image: '/projects/cornucopia/cover.jpg',
     description:
-      'A full-stack mobile application connecting charities and donors. Built end-to-end, from database schema design to frontend UX, with a focus on reducing manual coordination for nonprofit organizations.',
-    tech: ['React Native', 'Expo', 'Node.js', 'Express', 'PostgreSQL'],
-    github: '#',
-    demo: '#',
+      'A full-stack mobile application that streamlines donations by allowing charities to post real-time needs and enabling donors to browse and filter those needs. By centralizing communication, Cornucopia reduces logistical barriers while increasing donor confidence that their contributions are received and appreciated.',
+    tech: ['React Native', 'Expo', 'Node.js', 'PostgreSQL'],
+    github: 'https://github.com/CornucopiaApp/Cornucopia',
+    demo: null,
   },
   {
     title: 'SleepDuo',
@@ -20,25 +20,25 @@ const projects = [
     description:
       'An Android application that combines sleep diary functionality with advanced sleep tracking. Integrates with major wearable fitness platforms to help users understand how lifestyle choices affect sleep quality.',
     tech: ['React Native', 'Expo', 'PostgreSQL', 'Node.js'],
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/CharlesBither/SleepDuo',
+    demo: null,
   },
   {
-    title: 'Portfolio Website',
-    image: '/projects/cornucopia/cover.jpg',
+    title: 'Minecraft Server Dashboard ',
+    image: '/projects/SG/dashCover.png',
     description:
-      'A personal portfolio website built with Next.js to showcase projects, skills, and experience. Focuses on performance, accessibility, and responsive design.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn/ui'],
-    github: '#',
-    demo: '#',
+      'A web application built with Express.js and EJS that allows users to view and explore their in-game statistics through a clean, server-rendered dashboard.',
+    tech: ['EJS', 'Node.js', 'Express.js', 'Bootstrap CSS', 'MySQL'],
+    github: null,
+    demo: 'https://secretgarden.tech/',
   },
   {
-    title: 'IT Automation Tools',
-    image: '/projects/cornucopia/cover.jpg',
+    title: 'Minecraft Plugins',
+    image: '/projects/SG/pluginsCover.png',
     description:
-      'A collection of automation scripts and internal tools designed to streamline IT operations, including device provisioning, reporting, and identity management workflows.',
-    tech: ['Python', 'PowerShell', 'Azure AD', 'Microsoft Intune'],
-    github: '#',
+      'A collection of custom-built Minecraft plugins designed to enhance gameplay and server usability, including an interactive menu system for quick access to common in-game functions, a custom inventory management plugin, and additional quality-of-life features.',
+    tech: ['Java', 'Maven', 'Spigot API', 'MySQL'],
+    github: 'https://github.com/topics/secret-garden-mc',
     demo: null,
   },
 ];
@@ -50,8 +50,7 @@ export default function ProjectsContent() {
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight">Projects</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          A selection of projects I’ve built through coursework, professional experience, and
-          personal exploration.
+          A selection of projects I’ve built through coursework and personal exploration.
         </p>
       </section>
 
