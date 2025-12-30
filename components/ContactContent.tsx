@@ -3,7 +3,7 @@ import { Mail, Linkedin, Github } from 'lucide-react';
 
 export default function ContactContent() {
   return (
-    <main className="container mx-auto px-6 py-16 max-w-6xl">
+    <main className="container mx-auto px-6 py-16 max-w-6xl" id="contact">
       {/* Header */}
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight">Contact</h1>

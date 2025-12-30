@@ -40,7 +40,7 @@ const skills = [
 
 export default function SkillsContent() {
   return (
-    <main className="container mx-auto px-6 py-16 max-w-6xl">
+    <main className="container mx-auto px-6 py-16 max-w-6xl" id="skills">
       {/* Header */}
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight">Skills</h1>

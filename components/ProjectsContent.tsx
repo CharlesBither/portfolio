@@ -45,7 +45,7 @@ const projects = [
 
 export default function ProjectsContent() {
   return (
-    <main className="container mx-auto px-6 py-16 max-w-6xl">
+    <main className="container mx-auto px-6 py-16 max-w-6xl" id="projects">
       {/* Header */}
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight">Projects</h1>
@@ -59,7 +59,7 @@ export default function ProjectsContent() {
         {projects.map((project) => (
           <Card key={project.title} className="overflow-hidden flex flex-col h-full">
             {/* Screenshot */}
-            <div className="relative w-full aspect-[16/9]">
+            <div className="relative w-full aspect-video">
               <Image
                 src={project.image}
                 alt={`${project.title} screenshot`}
