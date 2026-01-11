@@ -12,11 +12,6 @@ import {
 } from "@/components/ui/sheet";
 import ThemeButton from "./ui/ThemeButton";
 
-type NavbarProps = {
-  theme: "dark" | "light";
-  onThemeClick: () => void;
-};
-
 const navItems = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
@@ -24,7 +19,7 @@ const navItems = [
   { label: "Contact", href: "#contact" },
 ];
 
-export function Navbar(props: NavbarProps) {
+export function Navbar() {
   return (
     <header className="w-full border-b bg-background text-foreground">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
@@ -44,7 +39,7 @@ export function Navbar(props: NavbarProps) {
               {item.label}
             </Link>
           ))}
-          <ThemeButton theme={props.theme} onClick={props.onThemeClick} />
+          <ThemeButton />
         </nav>
 
         {/* Mobile Navigation */}
@@ -65,7 +60,7 @@ export function Navbar(props: NavbarProps) {
               <div className="flex flex-row items-center">
                 <div className="ml-4 mr-2">Charles Bither </div>
 
-                <ThemeButton theme={props.theme} onClick={props.onThemeClick} />
+                <ThemeButton />
               </div>
             </SheetTitle>
             <nav className="flex flex-col gap-4 mt-6 mx-4">

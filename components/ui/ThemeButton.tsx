@@ -1,14 +1,13 @@
+"use client";
+
+import { useTheme } from "next-themes";
 import { MdOutlineLightMode } from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
 
-type ThemeButtonProps = {
-  theme: "dark" | "light";
-  onClick: () => void;
-};
-
-export default function ThemeButton(props: ThemeButtonProps) {
-  if (props.theme === "dark") {
-    return <MdOutlineDarkMode onClick={props.onClick} />;
+export default function ThemeButton() {
+  const { theme, setTheme } = useTheme();
+  if (theme === "dark") {
+    return <MdOutlineDarkMode onClick={() => setTheme("light")} />;
   }
-  return <MdOutlineLightMode onClick={props.onClick} />;
+  return <MdOutlineLightMode onClick={() => setTheme("dark")} />;
 }

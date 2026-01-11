@@ -24,10 +24,7 @@ export default function Home() {
         {/* <div className="absolute top-0 inset-0 bg-black/60" /> */}
       </div>
       <div className="absolute top-0 w-full">
-        <Navbar
-          theme={theme}
-          onThemeClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        />
+        <Navbar />
         <HomeContent />
       </div>
       <div>
