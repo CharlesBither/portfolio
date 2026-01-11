@@ -29,7 +29,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-6">
+        <nav className="hidden md:flex gap-6 items-center">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -59,16 +59,15 @@ export function Navbar() {
             <SheetTitle className="flex-row mt-3">
               <div className="flex flex-row items-center">
                 <div className="ml-4 mr-2">Charles Bither </div>
-
                 <ThemeButton />
               </div>
             </SheetTitle>
-            <nav className="flex flex-col gap-4 mt-6 mx-4">
+            <nav className="flex flex-col gap-2 mt-4 mx-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm font-medium"
+                  className="text-sm font-medium py-2"
                 >
                   {item.label}
                 </Link>
