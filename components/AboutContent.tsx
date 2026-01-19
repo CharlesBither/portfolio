@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function AboutContent() {
   return (
@@ -7,10 +7,6 @@ export default function AboutContent() {
         {/* Header */}
         <section className="mb-12">
           <h1 className="text-4xl font-bold tracking-tight">About Me</h1>
-          <p className="mt-4 text-muted-foreground text-lg">
-            Computer Science student passionate about building meaningful
-            software.
-          </p>
         </section>
 
         {/* Content */}
@@ -28,28 +24,22 @@ export default function AboutContent() {
           {/* Text */}
           <div className="space-y-6 text-base leading-relaxed">
             <p>
-              I’m a student at the{" "}
-              <span className="font-medium">University of Washington</span>,
-              studying <span className="font-medium">Computer Science</span>,
-              and I expect to graduate in{" "}
-              <span className="font-medium">June 2027</span>.
+              I am a Computer Science student at the University of Washington, with an expected
+              graduation date of June 2027.
             </p>
 
             <p>
-              I’m especially interested in{" "}
-              <span className="font-medium">software development</span>, with a
-              focus on <span className="font-medium">web</span> and
-              <span className="font-medium"> mobile development</span>. I enjoy
-              turning ideas into well-designed, functional applications and care
-              a lot about clean code, usability, and performance.
+              I have a strong interest in software development, particularly in web and mobile
+              application development. I enjoy transforming ideas into well-designed, functional
+              products and place a high value on clean code, usability, and performance.
             </p>
 
             <p>
-              Through coursework and personal projects, I’ve been building
-              experience across the full development stack — from designing user
-              interfaces to implementing backend logic and APIs. I’m always
-              eager to learn new technologies and improve my skills by building
-              real-world projects.
+              Through a combination of coursework and personal projects, I have gained experience
+              across the full software development stack, from designing intuitive user interfaces
+              to implementing backend logic and APIs. I am continuously motivated to expand my
+              technical skill set and deepen my understanding by building practical, real-world
+              applications.
             </p>
           </div>
         </section>

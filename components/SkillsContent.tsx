@@ -4,12 +4,12 @@ const skills = [
   {
     title: 'TypeScript / JavaScript',
     description:
-      'Experience building modern web and application logic using JavaScript and TypeScript, with an emphasis on type safety, maintainability, and clean architecture across frontend and backend codebases.',
+      '3+ years of hands-on experience using TypeScript and JavaScript to build and maintain web and mobile applications.',
   },
   {
     title: 'Java',
     description:
-      'Strong foundation in object-oriented programming, data structures, and algorithms, with experience writing structured, efficient, and readable Java applications through academic coursework and projects.',
+      '5+ years of experience using Java through academic coursework and the development of custom video game plugins.',
   },
   {
     title: 'Python',
@@ -19,7 +19,7 @@ const skills = [
   {
     title: 'React / React Native',
     description:
-      'Developed responsive user interfaces and cross-platform mobile applications using React and React Native, focusing on reusable components, state management, and intuitive user experiences.',
+      'Developed responsive user interfaces and cross-platform web and mobile applications using React and React Native, focusing on reusable components, state management, and intuitive user experiences.',
   },
   {
     title: 'Expo',
@@ -44,10 +44,6 @@ export default function SkillsContent() {
       {/* Header */}
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight">Skills</h1>
-        <p className="mt-4 text-lg text-muted-foreground">
-          Technologies and tools I’ve worked with through coursework, projects, and hands-on
-          experience.
-        </p>
       </section>
 
       {/* Skills Grid */}
