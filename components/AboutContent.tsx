@@ -25,7 +25,7 @@ export default function AboutContent() {
           <div className="space-y-6 text-base leading-relaxed">
             <p>
               I am a Computer Science student at the University of Washington, with an expected
-              graduation date of June 2027.
+              graduation date of December 2027.
             </p>
 
             <p>
